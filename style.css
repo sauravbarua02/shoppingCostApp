@@ -1,0 +1,53 @@
+body {
+    font-family: "Roboto", sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    background-color: blue;
+    color: white;
+  }
+  table,
+  form {
+    width: 500px;
+    margin: 20px auto;
+  }
+  table {
+    border-collapse: collapse;
+    text-align: center;
+  }
+  table td,
+  table th {
+    border: solid 1px black;
+  }
+  label,
+  input {
+    display: block;
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  button {
+    display: block;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+
+  }
+
+  #val{
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+
+  }
+
+  .deleteBtn{
+  margin:10px auto;
+
+  }

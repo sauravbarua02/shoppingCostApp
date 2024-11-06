@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily shopping cost app</title>
+     <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   
+    <h1>Daily shopping cost app</h1>
+    <form>
+      <div class="input-row">
+        <label for="item">Item</label>
+        <input type="text" name="item" id="item" />
+      </div>
+      <div class="input-row">
+        <label for="price">Unit price</label>
+        <input type="number" name="price" id="price" />
+      </div>
+      <div class="input-row">
+        <label for="quantity">Quantity</label>
+        <input type="number" name="quantity" id="quantity" />
+      </div>
+      <button>Submit</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Unit price</th>
+          <th>Quantity</th>
+          <th>Cost</th>
+          <th>Delete Item</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <br><br>
+    <p id="val">Total</p>
+
+<script src="app.js"></script>
+  </body>
+</html>
